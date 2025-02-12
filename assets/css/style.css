@@ -1,3 +1,4 @@
+
 /*** CSS Reset ***/
 html {
     box-sizing: border-box;
@@ -23,8 +24,67 @@ body {
 /* Sección lateral */
 .sidebar {
     min-height: 100vh;
-    width: 20%; 
+    width: 45rem; 
 }
+
+/* Sección de usuario info Maria */
+.user-info {
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid #dfdfdf;
+    padding: 1.5rem 0;
+}
+
+.img-info-status {
+    display: flex;
+}
+
+.img-perfil-maria {
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+    width: 50px;
+    margin-right: 12px;
+}
+
+.name-status h3, h5 {
+    font-weight: normal;
+}
+
+.name-status h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.name-status h5 {
+    color: #BEC1BB;
+    font-family: "Open Sans";
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: #828485;
+    cursor: pointer;
+}
+
+.new-chat-btn {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid #dfdfdf;
+    border-top: none;
+}
+
+.new-chat-btn a {
+    text-decoration: none;
+    background-color: #A491D2;
+    color: #fff;
+    padding: 20px 57px;
+    cursor: pointer;
+}
+
 
 
 /* Sección principal */
