@@ -12,9 +12,13 @@ html {
 }
 
 body {
-    font-family: system-ui, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
+}
+
+h3, h5 {
+    font-weight: normal;
 }
 
 .container {
@@ -24,41 +28,44 @@ body {
 /* Sección lateral */
 .sidebar {
     min-height: 100vh;
-    width: 45rem; 
+    width: 39.5rem; 
 }
 
 /* Sección de usuario info Maria */
 .user-info {
     display: flex;
     justify-content:space-around;
+    min-height: 6.8rem;
     border: 2px solid #dfdfdf;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .img-info-status {
     display: flex;
+    position: relative;
+    right: 1.4rem;
 }
 
 .img-perfil-maria {
     border-radius: 50%;
     border: 2px solid #dfdfdf;
-    width: 50px;
-    margin-right: 12px;
-}
-
-.name-status h3, h5 {
-    font-weight: normal;
+    width: 4.5rem;
+    height: 4.5rem;
+    object-fit: cover;
+    margin-right: 1.2rem;
 }
 
 .name-status h3 {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 2rem;
+    margin-bottom: -0.5rem;
 }
 
 .name-status h5 {
     color: #BEC1BB;
     font-family: "Open Sans";
+    font-size: 1.1rem;
 }
 
 .icons {
@@ -70,9 +77,12 @@ body {
     cursor: pointer;
 }
 
+/* Sección botón Nuevo Chat */
 .new-chat-btn {
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.5rem;
     border: 2px solid #dfdfdf;
     border-top: none;
 }
@@ -81,11 +91,47 @@ body {
     text-decoration: none;
     background-color: #A491D2;
     color: #fff;
-    padding: 20px 57px;
+    padding: 1.3rem 5.7rem;
     cursor: pointer;
+    font-size: 1.8rem;
 }
 
+/* Chats list */
+.chat-list li {
+    min-height: 8.3rem;
+    border: 2px solid #dfdfdf;
+    border-top: none;
+    padding: 1rem 0;
+}
 
+.info-chat-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-chat-list img {
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+    width: 5.8rem;
+    height: 5.8rem;
+    object-fit: cover;
+    margin-right: 6rem;
+    margin-left: 2rem;
+}
+
+.name-msg {
+    width: 100%;
+    margin-left: -4.4rem;
+}
+
+.name-msg h5 {
+    font-size: 1.5rem;
+    font-family: "Open Sans";
+    margin-top: -0.3rem;
+}
 
 /* Sección principal */
 .main-content {
@@ -105,13 +151,12 @@ body {
 }
 
 .logo-texts img {
-    width: 34rem;
-    height: 33rem;
-    border-radius: 1.4rem;
+    width: 27.5rem;
+    height: 26.8rem;
+    border-radius: 1.2rem;
 }
 
 .text {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,14 +167,15 @@ body {
 .text h2 {
     font-family: "Roboto";
     font-weight: 400;
-    font-size: 6.4rem;
+    font-size: 5rem;
     margin-top: 2rem;
+    margin-bottom: -0.5rem;
 }
 
 .text p {
     font-family: "Open Sans";
-    max-width: 64rem;
-    font-size: 1.9rem ;
+    max-width: 51.9rem;
+    font-size: 1.7rem ;
     color: #444749;
     line-height: 1.6;
 }
