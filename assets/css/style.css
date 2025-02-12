@@ -1,3 +1,4 @@
+/*** CSS Reset ***/
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -15,3 +16,60 @@ body {
     line-height: 1.5;
 }
 
+.container {
+    display: flex;
+}
+
+/* Sección lateral */
+.sidebar {
+    min-height: 100vh;
+    width: 20%; 
+}
+
+
+/* Sección principal */
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+.logo-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-texts img {
+    width: 34rem;
+    height: 33rem;
+    border-radius: 1.4rem;
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text h2 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 6.4rem;
+    margin-top: 2rem;
+}
+
+.text p {
+    font-family: "Open Sans";
+    max-width: 64rem;
+    font-size: 1.9rem ;
+    color: #444749;
+    line-height: 1.6;
+}
