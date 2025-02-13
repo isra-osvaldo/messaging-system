@@ -1,4 +1,4 @@
-## Sistema de Mensajería
+## Layout Sistema de Mensajería
 
 ![Sistema de Mensajería](./assets/img/screenshot-project.png "Sistema de Mensajería")
 
@@ -7,9 +7,11 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### Desafió 1 - Flexbox (Módulo CSS Avanzado)
+### ✅ Desafió 1 - Flexbox (Módulo CSS Avanzado) 
 
-Proyecto realizado aplicando conocimientos sobre creación de diseños responsivos con Flexbox.
+> [!NOTE]
+> Proyecto realizado aplicando conocimientos sobre creación de diseños responsivos con Flexbox.
 
+> [!TIP]
+> Para visualizar el proyecto en tu navegador, puedes utilizar el siguiente enlace: [Ver proyecto](https://isra-osvaldo.github.io/messaging-system/)
 
-<a href="https://isra-osvaldo.github.io/messaging-system/" target="_blank">Ver proyecto</a>
