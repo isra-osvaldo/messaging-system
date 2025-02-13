@@ -77,6 +77,10 @@ h3, h5 {
     cursor: pointer;
 }
 
+.fa-regular:hover, .fa-bars:hover {
+    color: #A491D2;
+}
+
 /* Sección botón Nuevo Chat */
 .new-chat-btn {
     display: flex;
@@ -96,12 +100,20 @@ h3, h5 {
     font-size: 1.8rem;
 }
 
+.new-chat-btn a:hover {
+    background-color: #9989c0;
+}
+
 /* Chats list */
 .chat-list li {
     min-height: 8.3rem;
     border: 2px solid #dfdfdf;
     border-top: none;
     padding: 1rem 0;
+}
+
+.list-chat:hover {
+    background-color: #efefef;
 }
 
 .info-chat-list {
@@ -148,6 +160,7 @@ h3, h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -50px;
 }
 
 .logo-texts img {
