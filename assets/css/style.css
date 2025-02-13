@@ -179,3 +179,74 @@ h3, h5 {
     color: #444749;
     line-height: 1.6;
 }
+
+@media (max-width: 806px) {
+    /* Sección lateral */
+    .sidebar {
+        min-height: 100vh;
+        width: 50rem; 
+    }
+
+    .logo-texts img {
+        width: 17.5rem;
+        height: 16.8rem;
+        border-radius: 1.2rem;
+    }
+
+    .text h2 {
+        font-size: 3rem;
+    }
+
+    .text p {
+        max-width: 38.4rem;
+        font-size: 1.3rem ;
+        color: #444749;
+        line-height: 1.5;
+        margin-top: .6rem;
+    }
+}
+
+@media (max-width:596px) {
+    .text h2 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: .3rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main-content {
+        display: none;
+    }
+
+    /* Sección lateral */
+    .sidebar {
+        min-height: 100vh;
+        width: 100%; 
+    }
+
+    .user-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-info-status {
+        position: relative;
+        left: 2rem;
+    }
+
+    .icons {
+        position: relative;
+        right: 2rem;
+    }
+
+    .new-chat-btn {
+        height: 10.5rem;
+    }
+
+    .new-chat-btn a {
+        padding: 1.2rem 4.7rem;
+        font-size: 1.5rem;
+    }
+}
