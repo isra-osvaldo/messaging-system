@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Avengeance";
+    src: url(/assets/font/AVENGEANCE\ HEROIC\ AVENGER\ AT.otf);
+}
 
 /*** CSS Reset ***/
 html {
@@ -83,7 +87,7 @@ h3, h5 {
 }
 
 .fa-regular:hover, .fa-bars:hover {
-    color: #A491D2;
+    color: #00458a;
 }
 
 /* Sección botón Nuevo Chat */
@@ -99,7 +103,8 @@ h3, h5 {
 
 .new-chat-btn a {
     text-decoration: none;
-    background-color: #A491D2;
+    background-color: #00458a;
+    border-radius: 0.5rem;
     color: #fff;
     padding: 1.18rem 5.4rem;
     cursor: pointer;
@@ -108,7 +113,7 @@ h3, h5 {
 }
 
 .new-chat-btn a:hover {
-    background-color: #b1a5cf;
+    background-color: #0b61b6;
 }
 
 /* Chats list */
@@ -167,14 +172,15 @@ h3, h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
 
 .logo-texts img {
-    width: 27.5rem;
-    height: 27.5rem;
+    width: 50rem;
+    height: auto;
     border-radius: 1.2rem;
     transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 0.5rem;
 }
 
 .logo-texts img:hover {
@@ -190,7 +196,8 @@ h3, h5 {
 }
 
 .text h2 {
-    font-family: "Roboto";
+    font-family: "Avengeance";
+    color:#828485;
     font-weight: 400;
     font-size: 5rem;
     margin-top: 2rem;
@@ -199,10 +206,11 @@ h3, h5 {
 
 .text p {
     font-family: "Open Sans";
-    max-width: 51.9rem;
+    max-width: 62rem;
     font-size: 1.7rem ;
     color: #444749;
     line-height: 1.6;
+    color:#444749;
 }
 
 @media (max-width: 910px) {
@@ -213,9 +221,8 @@ h3, h5 {
     }
 
     .logo-texts img {
-        width: 17.5rem;
-        height: 16.8rem;
-        border-radius: 1.2rem;
+        width: 30rem;
+        height: auto;
     }
 
     .text h2 {
@@ -224,18 +231,31 @@ h3, h5 {
 
     .text p {
         max-width: 38.4rem;
-        font-size: 1.3rem ;
+        font-size: 1.2rem ;
         color: #444749;
         line-height: 1.5;
         margin-top: .6rem;
     }
 }
 
-@media (max-width:596px) {
+@media (max-width:690px) {
+    .logo-texts img {
+        width: 25rem;
+        height: auto;
+    }
+
     .text h2 {
         font-size: 2.5rem;
         line-height: 1.2;
         margin-bottom: .3rem;
+    }
+
+    .text p {
+        max-width: 35rem;
+        font-size: 1rem ;
+        color: #444749;
+        line-height: 1.5;
+        margin-top: .6rem;
     }
 }
 
