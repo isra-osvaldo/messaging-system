@@ -10,7 +10,7 @@
 ### 🎯 Desafió 1 - Flexbox (Módulo CSS Avanzado) 
 
 > [!NOTE]
-> Proyecto realizado aplicando conocimientos sobre creación de diseños responsivos con Flexbox.
+> Proyecto realizado aplicando conocimientos sobre creación de diseños responsivos con **Flexbox**.
 
 > [!TIP]
 > Para visualizar el proyecto en tu navegador puedes utilizar el siguiente enlace: [Ver proyecto](https://isra-osvaldo.github.io/messaging-system/)
