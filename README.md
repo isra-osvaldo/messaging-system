@@ -1,6 +1,6 @@
 ## Layout Sistema de Mensajería
 
-<img src="/assets/img/iPhone-14-Pro-Max-473x968.png" alt="iPhone 14 Pro Max" width="500"/>
+<img src="/assets/img/iPhone-14-Pro-Max-473x968.png" alt="iPhone 14 Pro Max" width="300" height="613"/>
 
 <img src="/assets/img/Macbook-Air-2011x1165.png" alt="Macbook Air" width="500"/>
 
