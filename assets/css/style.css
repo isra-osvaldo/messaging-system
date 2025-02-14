@@ -205,7 +205,7 @@ h3, h5 {
     line-height: 1.6;
 }
 
-@media (max-width: 806px) {
+@media (max-width: 910px) {
     /* Sección lateral */
     .conctacts-list {
         min-height: 100vh;
@@ -258,12 +258,12 @@ h3, h5 {
 
     .img-info-status {
         position: relative;
-        left: 2rem;
+        left: 3rem;
     }
 
     .icons {
         position: relative;
-        right: 2rem;
+        right: 3rem;
     }
 
     .new-chat-btn {
