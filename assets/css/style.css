@@ -32,7 +32,7 @@ h3, h5 {
 /* Sección lateral */
 .conctacts-list {
     min-height: 100vh;
-    flex-basis: 40rem;
+    flex-basis: 45rem;
 }
 
 /* Sección de usuario info Maria */
@@ -217,7 +217,7 @@ h3, h5 {
     /* Sección lateral */
     .conctacts-list {
         min-height: 100vh;
-        flex-basis: 50rem;
+        flex-basis: 58rem;
     }
 
     .logo-texts img {
