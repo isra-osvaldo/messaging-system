@@ -126,6 +126,7 @@ h3, h5 {
 
 .list-chat:hover {
     background-color: #efefef;
+    cursor: pointer;
 }
 
 .info-chat-list {
