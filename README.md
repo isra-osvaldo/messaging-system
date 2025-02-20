@@ -14,6 +14,6 @@
 > Para visualizar el proyecto en tu navegador puedes utilizar el siguiente enlace: [Ver proyecto](https://isra-osvaldo.github.io/messaging-system/)
 
 <p>
-    <img src="/assets/img/iPhone-14-Pro-438x891 2.png" alt="iPhone 14 Pro Max" width="200" height="409"/>
-    <img src="/assets/img/Macbook-Air-2011x1165_3.png" alt="Macbook Air" width="500"/>
+    <img src="/assets/img/iPhone-14-Pro-438x891_2-messaging-chat.png" alt="iPhone 14 Pro Max" width="200" height="409"/>
+    <img src="/assets/img/Macbook-Air-2011-messaging-chat.png" alt="Macbook Air" width="500"/>
 </p>
